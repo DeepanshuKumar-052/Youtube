@@ -1,0 +1,71 @@
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+.outer-box{
+ width: 100vw;
+ height: 100vh;
+  background-image: url("./light-color-12.jpg");
+  
+}
+ .inner-box{ 
+    width: 450px;
+     margin: 0 auto;
+     position: relative;
+     top: 45%; 
+    transform: translateY(-50%);
+    padding: 20px 40px;
+     border-radius: 8px;
+      border: solid #cccc 2px;
+      /* opacity: 0.5; */
+      box-shadow: 2px 2px 5px ;
+ }
+
+   .header-section h2{
+     font-size: 2rem;
+   }
+    .header-section p{
+         font-size: 1rem;
+          color: #555;
+    }
+     .main-section p{
+         margin:18px;
+     }
+      .main-section label{
+display: block;
+ font-weight: 500;  /*already strong kiy ahai html me*/
+      }
+      
+       .main-section input {
+        width: 100%;
+         padding: 10px;
+         font-size: 1rem;
+         border: #555;
+         border-radius: 8px;
+          margin-top: 5px;
+       }
+       .main-section p input [type="submit"]{
+        background-color:rgb(76, 76, 252);
+         color: white;
+          border: none;
+           cursor: pointer;
+       }
+       .main-section p input[type="submit"]:hover{
+       background-color:rgb(6, 6, 234); 
+       border-radius: 50px;
+       }
+        a{
+            text-decoration: none;
+        }
+        .foot p{
+             text-align: center;
+             color: #555;
+        }
+
+
+       
+
+        
+      
